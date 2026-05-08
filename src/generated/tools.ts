@@ -1846,7 +1846,7 @@ export const TOOLS: ToolDef[] = [
           ],
           "description": "The prediction market exchange to target."
         },
-        "id": {
+        "outcomeId": {
           "type": "string"
         },
         "resolution": {
@@ -1874,7 +1874,7 @@ export const TOOLS: ToolDef[] = [
       },
       "required": [
         "exchange",
-        "id"
+        "outcomeId"
       ]
     },
     "annotations": {
@@ -2073,7 +2073,7 @@ export const TOOLS: ToolDef[] = [
           ],
           "description": "The prediction market exchange to target."
         },
-        "id": {
+        "outcomeId": {
           "type": "string"
         },
         "side": {
@@ -2086,7 +2086,7 @@ export const TOOLS: ToolDef[] = [
       },
       "required": [
         "exchange",
-        "id"
+        "outcomeId"
       ]
     },
     "annotations": {
@@ -2312,7 +2312,7 @@ export const TOOLS: ToolDef[] = [
           ],
           "description": "The prediction market exchange to target."
         },
-        "id": {
+        "outcomeId": {
           "type": "string"
         },
         "start": {
@@ -2336,7 +2336,7 @@ export const TOOLS: ToolDef[] = [
       },
       "required": [
         "exchange",
-        "id"
+        "outcomeId"
       ]
     },
     "annotations": {
