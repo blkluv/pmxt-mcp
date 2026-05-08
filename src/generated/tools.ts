@@ -1883,7 +1883,7 @@ export const TOOLS: ToolDef[] = [
     "method": "fetchOHLCV",
     "args": [
       {
-        "name": "id",
+        "name": "outcomeId",
         "kind": "string",
         "optional": false,
         "flatten": false
@@ -2095,7 +2095,7 @@ export const TOOLS: ToolDef[] = [
     "method": "fetchOrderBook",
     "args": [
       {
-        "name": "id",
+        "name": "outcomeId",
         "kind": "string",
         "optional": false,
         "flatten": false
@@ -2345,7 +2345,7 @@ export const TOOLS: ToolDef[] = [
     "method": "fetchTrades",
     "args": [
       {
-        "name": "id",
+        "name": "outcomeId",
         "kind": "string",
         "optional": false,
         "flatten": false
@@ -2800,7 +2800,7 @@ export const TOOLS: ToolDef[] = [
           ],
           "description": "The prediction market exchange to target."
         },
-        "ids": {},
+        "outcomeIds": {},
         "limit": {
           "type": "number"
         },
@@ -2811,7 +2811,7 @@ export const TOOLS: ToolDef[] = [
       },
       "required": [
         "exchange",
-        "ids"
+        "outcomeIds"
       ]
     },
     "annotations": {
@@ -2820,7 +2820,7 @@ export const TOOLS: ToolDef[] = [
     "method": "watchOrderBooks",
     "args": [
       {
-        "name": "ids",
+        "name": "outcomeIds",
         "kind": "unknown",
         "optional": false,
         "flatten": false
