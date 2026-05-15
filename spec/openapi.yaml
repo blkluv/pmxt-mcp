@@ -1296,7 +1296,7 @@ paths:
         function.
   '/api/{exchange}/watchOrderBook':
     post:
-      summary: Watch Order Book (WebSocket)
+      summary: Watch Order Book
       operationId: watchOrderBook
       parameters:
         - $ref: '#/components/parameters/ExchangeParam'
@@ -1342,22 +1342,9 @@ paths:
         { "id": "req-1", "action": "unsubscribe" }
 
         ```
-      requestBody:
-        content:
-          application/json:
-            schema:
-              title: WatchOrderBookRequest
-              type: object
-              properties:
-                args:
-                  type: array
-                  items:
-                    type: string
-                credentials:
-                  $ref: '#/components/schemas/ExchangeCredentials'
       responses:
         '200':
-          description: Watch Order Book response (WebSocket data event)
+          description: Watch Order Book response
           content:
             application/json:
               schema:
@@ -1369,7 +1356,7 @@ paths:
                         $ref: '#/components/schemas/OrderBook'
   '/api/{exchange}/watchOrderBooks':
     post:
-      summary: Watch Order Books (WebSocket)
+      summary: Watch Order Books
       operationId: watchOrderBooks
       parameters:
         - $ref: '#/components/parameters/ExchangeParam'
@@ -1416,22 +1403,9 @@ paths:
         { "id": "req-1", "action": "unsubscribe" }
 
         ```
-      requestBody:
-        content:
-          application/json:
-            schema:
-              title: WatchOrderBooksRequest
-              type: object
-              properties:
-                args:
-                  type: array
-                  items:
-                    type: string
-                credentials:
-                  $ref: '#/components/schemas/ExchangeCredentials'
       responses:
         '200':
-          description: Watch Order Books response (WebSocket data event)
+          description: Watch Order Books response
           content:
             application/json:
               schema:
@@ -1445,7 +1419,7 @@ paths:
                           $ref: '#/components/schemas/OrderBook'
   '/api/{exchange}/unwatchOrderBook':
     post:
-      summary: Unwatch Order Book (WebSocket)
+      summary: Unwatch Order Book
       operationId: unwatchOrderBook
       parameters:
         - $ref: '#/components/parameters/ExchangeParam'
@@ -1473,29 +1447,16 @@ paths:
         ```json
         { "id": "req-1", "action": "unsubscribe" }
         ```
-      requestBody:
-        content:
-          application/json:
-            schema:
-              title: UnwatchOrderBookRequest
-              type: object
-              properties:
-                args:
-                  type: array
-                  items:
-                    type: string
-                credentials:
-                  $ref: '#/components/schemas/ExchangeCredentials'
       responses:
         '200':
-          description: Unwatch Order Book response (WebSocket data event)
+          description: Unwatch Order Book response
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/BaseResponse'
   '/api/{exchange}/watchTrades':
     post:
-      summary: Watch Trades (WebSocket)
+      summary: Watch Trades
       operationId: watchTrades
       parameters:
         - $ref: '#/components/parameters/ExchangeParam'
@@ -1541,22 +1502,9 @@ paths:
         { "id": "req-1", "action": "unsubscribe" }
 
         ```
-      requestBody:
-        content:
-          application/json:
-            schema:
-              title: WatchTradesRequest
-              type: object
-              properties:
-                args:
-                  type: array
-                  items:
-                    type: string
-                credentials:
-                  $ref: '#/components/schemas/ExchangeCredentials'
       responses:
         '200':
-          description: Watch Trades response (WebSocket data event)
+          description: Watch Trades response
           content:
             application/json:
               schema:
@@ -1570,7 +1518,7 @@ paths:
                           $ref: '#/components/schemas/Trade'
   '/api/{exchange}/watchAddress':
     post:
-      summary: Watch Address (WebSocket)
+      summary: Watch Address
       operationId: watchAddress
       parameters:
         - $ref: '#/components/parameters/ExchangeParam'
@@ -1616,22 +1564,9 @@ paths:
         { "id": "req-1", "action": "unsubscribe" }
 
         ```
-      requestBody:
-        content:
-          application/json:
-            schema:
-              title: WatchAddressRequest
-              type: object
-              properties:
-                args:
-                  type: array
-                  items:
-                    type: string
-                credentials:
-                  $ref: '#/components/schemas/ExchangeCredentials'
       responses:
         '200':
-          description: Watch Address response (WebSocket data event)
+          description: Watch Address response
           content:
             application/json:
               schema:
@@ -1643,7 +1578,7 @@ paths:
                         type: object
   '/api/{exchange}/unwatchAddress':
     post:
-      summary: Unwatch Address (WebSocket)
+      summary: Unwatch Address
       operationId: unwatchAddress
       parameters:
         - $ref: '#/components/parameters/ExchangeParam'
@@ -1671,22 +1606,9 @@ paths:
         ```json
         { "id": "req-1", "action": "unsubscribe" }
         ```
-      requestBody:
-        content:
-          application/json:
-            schema:
-              title: UnwatchAddressRequest
-              type: object
-              properties:
-                args:
-                  type: array
-                  items:
-                    type: string
-                credentials:
-                  $ref: '#/components/schemas/ExchangeCredentials'
       responses:
         '200':
-          description: Unwatch Address response (WebSocket data event)
+          description: Unwatch Address response
           content:
             application/json:
               schema:
