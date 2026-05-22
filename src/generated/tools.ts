@@ -2151,6 +2151,22 @@ export const TOOLS: ToolDef[] = [
         "limit": {
           "type": "number"
         },
+        "side": {
+          "type": "string",
+          "enum": [
+            "yes",
+            "no"
+          ],
+          "description": "Outcome side: 'yes' or 'no'. Required for exchanges like Limitless where the API returns a single orderbook per market."
+        },
+        "since": {
+          "type": "number",
+          "description": "Unix timestamp (ms) — fetch a historical snapshot at or before this time, or the start of a range when combined with `until` (hosted API only)."
+        },
+        "until": {
+          "type": "number",
+          "description": "Unix timestamp (ms) — end of a historical range. When combined with `since`, returns an array of reconstructed L2 OrderBook snapshots between `since` and `until` (hosted API only)."
+        },
         "verbose": {
           "type": "boolean",
           "description": "Return full uncompacted response. Default false returns a compact, agent-friendly summary."
