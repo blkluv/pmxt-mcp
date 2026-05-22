@@ -38,6 +38,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -165,6 +168,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -242,6 +248,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -292,6 +301,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -418,6 +430,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -513,6 +528,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -582,6 +600,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -658,6 +679,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -753,6 +777,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -866,6 +893,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -954,6 +984,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1067,6 +1100,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1122,6 +1158,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1226,6 +1265,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1336,6 +1378,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1440,6 +1485,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1550,6 +1598,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1605,6 +1656,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1674,6 +1728,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1743,6 +1800,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1842,6 +1902,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1916,6 +1979,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -1992,6 +2058,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -2051,7 +2120,7 @@ export const TOOLS: ToolDef[] = [
   },
   {
     "name": "fetchOrderBook",
-    "description": "Fetch the current order book (bids/asks) for a specific outcome. Essential for calculating spread, depth, and execution prices.",
+    "description": "Fetch the order book (bids/asks) for a specific outcome.",
     "inputSchema": {
       "type": "object",
       "properties": {
@@ -2069,6 +2138,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -2076,8 +2148,8 @@ export const TOOLS: ToolDef[] = [
         "outcomeId": {
           "type": "string"
         },
-        "side": {
-          "type": "string"
+        "limit": {
+          "type": "number"
         },
         "verbose": {
           "type": "boolean",
@@ -2101,9 +2173,66 @@ export const TOOLS: ToolDef[] = [
         "flatten": false
       },
       {
-        "name": "side",
-        "kind": "string",
+        "name": "limit",
+        "kind": "number",
         "optional": true,
+        "flatten": false
+      },
+      {
+        "name": "params",
+        "kind": "object",
+        "optional": true,
+        "flatten": false
+      }
+    ]
+  },
+  {
+    "name": "fetchOrderBooks",
+    "description": "Batch variant of {@link fetchOrderBook}. Fetches order books for multiple outcomes in a single request where the exchange supports it.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "exchange": {
+          "type": "string",
+          "enum": [
+            "polymarket",
+            "kalshi",
+            "kalshi-demo",
+            "limitless",
+            "probable",
+            "baozi",
+            "myriad",
+            "opinion",
+            "metaculus",
+            "smarkets",
+            "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
+            "router"
+          ],
+          "description": "The prediction market exchange to target."
+        },
+        "outcomeIds": {},
+        "verbose": {
+          "type": "boolean",
+          "description": "Return full uncompacted response. Default false returns a compact, agent-friendly summary."
+        }
+      },
+      "required": [
+        "exchange",
+        "outcomeIds"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true
+    },
+    "method": "fetchOrderBooks",
+    "args": [
+      {
+        "name": "outcomeIds",
+        "kind": "unknown",
+        "optional": false,
         "flatten": false
       }
     ]
@@ -2128,6 +2257,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -2204,6 +2336,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -2308,6 +2443,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -2378,6 +2516,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -2484,6 +2625,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -2590,6 +2734,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."
@@ -2667,6 +2814,9 @@ export const TOOLS: ToolDef[] = [
             "metaculus",
             "smarkets",
             "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "mock",
             "router"
           ],
           "description": "The prediction market exchange to target."

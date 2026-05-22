@@ -93,9 +93,24 @@
         "optional": false
       },
       {
-        "name": "side",
-        "kind": "string",
+        "name": "limit",
+        "kind": "number",
         "optional": true
+      },
+      {
+        "name": "params",
+        "kind": "object",
+        "optional": true
+      }
+    ]
+  },
+  "fetchOrderBooks": {
+    "verb": "post",
+    "args": [
+      {
+        "name": "outcomeIds",
+        "kind": "unknown",
+        "optional": false
       }
     ]
   },
@@ -306,6 +321,11 @@
         "name": "limit",
         "kind": "number",
         "optional": true
+      },
+      {
+        "name": "params",
+        "kind": "object",
+        "optional": true
       }
     ]
   },
@@ -320,6 +340,11 @@
       {
         "name": "limit",
         "kind": "number",
+        "optional": true
+      },
+      {
+        "name": "params",
+        "kind": "object",
         "optional": true
       }
     ]
