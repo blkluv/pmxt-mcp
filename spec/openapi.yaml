@@ -724,6 +724,15 @@ paths:
             Outcome side: 'yes' or 'no'. Required for exchanges like Limitless where the API returns a single orderbook
             per market.
         - in: query
+          name: outcome
+          required: false
+          schema:
+            type: string
+          description: >-
+            Outcome alias: 'yes' or 'no', or an outcome token ID. When set, the first argument is treated as a market ID
+            and this value selects which outcome's order book to fetch. Accepts the literal strings 'yes'/'no' (resolved
+            via a market lookup) or a raw outcome token ID.
+        - in: query
           name: since
           required: false
           schema:
@@ -850,7 +859,7 @@ paths:
           required: false
           schema:
             type: number
-          description: Maximum number of results to return
+          description: 'Maximum number of results to return (max {@link MAX_TRADES_LIMIT})'
       responses:
         '200':
           description: Fetch Trades response
@@ -3436,6 +3445,12 @@ components:
           description: >-
             Outcome side: 'yes' or 'no'. Required for exchanges like Limitless where the API returns a single orderbook
             per market.
+        outcome:
+          type: string
+          description: >-
+            Outcome alias: 'yes' or 'no', or an outcome token ID. When set, the first argument is treated as a market ID
+            and this value selects which outcome's order book to fetch. Accepts the literal strings 'yes'/'no' (resolved
+            via a market lookup) or a raw outcome token ID.
         since:
           type: number
           description: >-
@@ -3448,7 +3463,6 @@ components:
             reconstructed L2 OrderBook snapshots between `since` and `until` (hosted API only).
     TradesParams:
       type: object
-      description: Parameters for fetching trade history. No resolution parameter - trades are discrete events.
       properties:
         start:
           type: string
@@ -3460,7 +3474,7 @@ components:
           description: End of the time range
         limit:
           type: number
-          description: Maximum number of results to return
+          description: 'Maximum number of results to return (max {@link MAX_TRADES_LIMIT})'
     CreateOrderParams:
       type: object
       properties:

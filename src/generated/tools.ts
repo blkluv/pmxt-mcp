@@ -2159,6 +2159,10 @@ export const TOOLS: ToolDef[] = [
           ],
           "description": "Outcome side: 'yes' or 'no'. Required for exchanges like Limitless where the API returns a single orderbook per market."
         },
+        "outcome": {
+          "type": "string",
+          "description": "Outcome alias: 'yes' or 'no', or an outcome token ID. When set, the first argument is treated as a market ID and this value selects which outcome's order book to fetch. Accepts the literal strings 'yes'/'no' (resolved via a market lookup) or a raw outcome token ID."
+        },
         "since": {
           "type": "number",
           "description": "Unix timestamp (ms) — fetch a historical snapshot at or before this time, or the start of a range when combined with `until` (hosted API only)."
@@ -2481,7 +2485,7 @@ export const TOOLS: ToolDef[] = [
         },
         "limit": {
           "type": "number",
-          "description": "Maximum number of results to return"
+          "description": "Maximum number of results to return (max {@link MAX_TRADES_LIMIT})"
         },
         "verbose": {
           "type": "boolean",
