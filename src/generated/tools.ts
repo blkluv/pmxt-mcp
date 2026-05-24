@@ -792,6 +792,10 @@ export const TOOLS: ToolDef[] = [
           "type": "number",
           "description": "Maximum number of results to return"
         },
+        "cursor": {
+          "type": "string",
+          "description": "Opaque venue pagination cursor, where supported."
+        },
         "offset": {
           "type": "number",
           "description": "Pagination offset — number of results to skip"
@@ -998,6 +1002,10 @@ export const TOOLS: ToolDef[] = [
         "limit": {
           "type": "number",
           "description": "Maximum number of results to return"
+        },
+        "cursor": {
+          "type": "string",
+          "description": "Opaque venue pagination cursor, where supported."
         },
         "offset": {
           "type": "number",
