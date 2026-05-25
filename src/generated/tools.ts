@@ -40,6 +40,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -170,6 +171,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -250,6 +252,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -303,6 +306,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -432,6 +436,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -530,6 +535,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -602,6 +608,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -681,6 +688,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -779,6 +787,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -899,6 +908,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -990,6 +1000,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1110,6 +1121,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1168,6 +1180,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1275,6 +1288,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1388,6 +1402,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1495,6 +1510,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1608,6 +1624,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1666,6 +1683,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1738,6 +1756,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1810,6 +1829,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1912,6 +1932,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -1989,6 +2010,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -2068,6 +2090,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -2148,6 +2171,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -2236,6 +2260,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -2287,6 +2312,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -2366,6 +2392,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -2473,6 +2500,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -2546,6 +2574,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -2655,6 +2684,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -2764,6 +2794,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
@@ -2844,6 +2875,7 @@ export const TOOLS: ToolDef[] = [
             "polymarket_us",
             "gemini-titan",
             "hyperliquid",
+            "suibets",
             "mock",
             "router"
           ],
