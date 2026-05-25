@@ -556,6 +556,7 @@ export const TOOLS: ToolDef[] = [
             "type": "string",
             "enum": [
               "identity",
+              "complement",
               "subset",
               "superset",
               "overlap",
@@ -941,6 +942,7 @@ export const TOOLS: ToolDef[] = [
           "type": "string",
           "enum": [
             "identity",
+            "complement",
             "subset",
             "superset",
             "overlap",
@@ -1216,6 +1218,7 @@ export const TOOLS: ToolDef[] = [
           "type": "string",
           "enum": [
             "identity",
+            "complement",
             "subset",
             "superset",
             "overlap",
@@ -1438,6 +1441,7 @@ export const TOOLS: ToolDef[] = [
           "type": "string",
           "enum": [
             "identity",
+            "complement",
             "subset",
             "superset",
             "overlap",
@@ -1704,6 +1708,7 @@ export const TOOLS: ToolDef[] = [
             "type": "string",
             "enum": [
               "identity",
+              "complement",
               "subset",
               "superset",
               "overlap",
@@ -1777,6 +1782,7 @@ export const TOOLS: ToolDef[] = [
             "type": "string",
             "enum": [
               "identity",
+              "complement",
               "subset",
               "superset",
               "overlap",
@@ -2428,6 +2434,7 @@ export const TOOLS: ToolDef[] = [
           "type": "string",
           "enum": [
             "identity",
+            "complement",
             "subset",
             "superset",
             "overlap",
