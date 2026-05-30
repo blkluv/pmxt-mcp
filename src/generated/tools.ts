@@ -846,6 +846,10 @@ export const TOOLS: ToolDef[] = [
           "type": "string",
           "description": "Lookup by event slug"
         },
+        "series": {
+          "type": "string",
+          "description": "Filter events by their parent series. Accepts the venue-native series id / ticker / slug (e.g. Kalshi `\"KXATPMATCH\"`, Polymarket `\"wta\"`). Passed through to the vendor where supported, otherwise applied to `sourceMetadata` after fetch."
+        },
         "filter": {
           "allOf": [
             {
@@ -1059,6 +1063,10 @@ export const TOOLS: ToolDef[] = [
         "slug": {
           "type": "string",
           "description": "Lookup by event slug"
+        },
+        "series": {
+          "type": "string",
+          "description": "Filter events by their parent series. Accepts the venue-native series id / ticker / slug (e.g. Kalshi `\"KXATPMATCH\"`, Polymarket `\"wta\"`). Passed through to the vendor where supported, otherwise applied to `sourceMetadata` after fetch."
         },
         "filter": {
           "allOf": [
@@ -2481,6 +2489,56 @@ export const TOOLS: ToolDef[] = [
         "name": "params",
         "kind": "object",
         "optional": false,
+        "flatten": true
+      }
+    ]
+  },
+  {
+    "name": "fetchSeries",
+    "description": "Fetch the recurring series (fourth tier above Event -> Market -> Outcome) that this venue exposes. Returns an empty array on venues without a series concept (Limitless, Smarkets, Probable, Metaculus, Baozi, Hyperliquid, SuiBets, Polymarket US). - `params.id` -> a single matching series with its events populated where supported. - no params -> the full list, typically without nested events for payload size.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "exchange": {
+          "type": "string",
+          "enum": [
+            "polymarket",
+            "kalshi",
+            "kalshi-demo",
+            "limitless",
+            "probable",
+            "baozi",
+            "myriad",
+            "opinion",
+            "metaculus",
+            "smarkets",
+            "polymarket_us",
+            "gemini-titan",
+            "hyperliquid",
+            "suibets",
+            "mock",
+            "router"
+          ],
+          "description": "The prediction market exchange to target."
+        },
+        "verbose": {
+          "type": "boolean",
+          "description": "Return full uncompacted response. Default false returns a compact, agent-friendly summary."
+        }
+      },
+      "required": [
+        "exchange"
+      ]
+    },
+    "annotations": {
+      "readOnlyHint": true
+    },
+    "method": "fetchSeries",
+    "args": [
+      {
+        "name": "params",
+        "kind": "object",
+        "optional": true,
         "flatten": true
       }
     ]
