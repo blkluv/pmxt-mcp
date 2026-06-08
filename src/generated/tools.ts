@@ -2992,6 +2992,10 @@ export const TOOLS: ToolDef[] = [
             },
             "raw": {
               "description": "The raw, exchange-native payload. Always present."
+            },
+            "expiry": {
+              "type": "number",
+              "description": "Unix epoch (ms) when this built order expires server-side. Submitting after expiry returns BUILT_ORDER_EXPIRED."
             }
           },
           "required": [
