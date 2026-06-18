@@ -782,26 +782,7 @@ export const TOOLS: ToolDef[] = [
       "properties": {
         "exchange": {
           "type": "string",
-          "enum": [
-            "polymarket",
-            "kalshi",
-            "kalshi-demo",
-            "limitless",
-            "probable",
-            "baozi",
-            "myriad",
-            "opinion",
-            "metaculus",
-            "smarkets",
-            "polymarket_us",
-            "gemini-titan",
-            "hyperliquid",
-            "suibets",
-            "rain",
-            "mock",
-            "router"
-          ],
-          "description": "The prediction market exchange to target."
+          "description": "Alias for `sourceExchange`."
         },
         "query": {
           "type": "string",
@@ -877,6 +858,10 @@ export const TOOLS: ToolDef[] = [
             "type": "string"
           },
           "description": "Filter by tags. Returns events matching ANY of the provided tags. Tags are more specific than categories -- for example a \"Politics\" event might carry tags [\"Politics\", \"Geopolitics\", \"Middle East\", \"Iran\"]. Common tags include \"Crypto\", \"Elections\", \"Fed Rates\", \"FIFA World Cup\", \"Trump\"."
+        },
+        "sourceExchange": {
+          "type": "string",
+          "description": "Filter by source venue (e.g. 'polymarket', 'kalshi', 'myriad'). `exchange` is an alias."
         },
         "verbose": {
           "type": "boolean",
@@ -1002,26 +987,7 @@ export const TOOLS: ToolDef[] = [
       "properties": {
         "exchange": {
           "type": "string",
-          "enum": [
-            "polymarket",
-            "kalshi",
-            "kalshi-demo",
-            "limitless",
-            "probable",
-            "baozi",
-            "myriad",
-            "opinion",
-            "metaculus",
-            "smarkets",
-            "polymarket_us",
-            "gemini-titan",
-            "hyperliquid",
-            "suibets",
-            "rain",
-            "mock",
-            "router"
-          ],
-          "description": "The prediction market exchange to target."
+          "description": "Alias for `sourceExchange`."
         },
         "query": {
           "type": "string",
@@ -1097,6 +1063,10 @@ export const TOOLS: ToolDef[] = [
             "type": "string"
           },
           "description": "Filter by tags. Returns events matching ANY of the provided tags. Tags are more specific than categories -- for example a \"Politics\" event might carry tags [\"Politics\", \"Geopolitics\", \"Middle East\", \"Iran\"]. Common tags include \"Crypto\", \"Elections\", \"Fed Rates\", \"FIFA World Cup\", \"Trump\"."
+        },
+        "sourceExchange": {
+          "type": "string",
+          "description": "Filter by source venue (e.g. 'polymarket', 'kalshi', 'myriad'). `exchange` is an alias."
         },
         "verbose": {
           "type": "boolean",
@@ -1298,26 +1268,7 @@ export const TOOLS: ToolDef[] = [
       "properties": {
         "exchange": {
           "type": "string",
-          "enum": [
-            "polymarket",
-            "kalshi",
-            "kalshi-demo",
-            "limitless",
-            "probable",
-            "baozi",
-            "myriad",
-            "opinion",
-            "metaculus",
-            "smarkets",
-            "polymarket_us",
-            "gemini-titan",
-            "hyperliquid",
-            "suibets",
-            "rain",
-            "mock",
-            "router"
-          ],
-          "description": "The prediction market exchange to target."
+          "description": "Alias for `sourceExchange`."
         },
         "limit": {
           "type": "number",
@@ -1382,6 +1333,10 @@ export const TOOLS: ToolDef[] = [
         "similarityThreshold": {
           "type": "number",
           "description": "For semantic search (used by Limitless)"
+        },
+        "sourceExchange": {
+          "type": "string",
+          "description": "Filter by source venue (e.g. 'polymarket', 'kalshi', 'myriad'). `exchange` is an alias."
         },
         "verbose": {
           "type": "boolean",
@@ -1523,26 +1478,7 @@ export const TOOLS: ToolDef[] = [
       "properties": {
         "exchange": {
           "type": "string",
-          "enum": [
-            "polymarket",
-            "kalshi",
-            "kalshi-demo",
-            "limitless",
-            "probable",
-            "baozi",
-            "myriad",
-            "opinion",
-            "metaculus",
-            "smarkets",
-            "polymarket_us",
-            "gemini-titan",
-            "hyperliquid",
-            "suibets",
-            "rain",
-            "mock",
-            "router"
-          ],
-          "description": "The prediction market exchange to target."
+          "description": "Alias for `sourceExchange`."
         },
         "limit": {
           "type": "number",
@@ -1607,6 +1543,10 @@ export const TOOLS: ToolDef[] = [
         "similarityThreshold": {
           "type": "number",
           "description": "For semantic search (used by Limitless)"
+        },
+        "sourceExchange": {
+          "type": "string",
+          "description": "Filter by source venue (e.g. 'polymarket', 'kalshi', 'myriad'). `exchange` is an alias."
         },
         "verbose": {
           "type": "boolean",
